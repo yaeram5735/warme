@@ -1,0 +1,1616 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1460">
+    <title>Wärme</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- cdn방식으로 들고 온 aos -->
+    <!-- 파비콘 추가 -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./imgs/favicon1.png">
+</head>
+
+<body>
+    <header class="site-header" id="siteHeader"><!-- header_S -->
+
+        <div class="header-inner">
+
+            <!-- LOGO -->
+            <a href="#" class="header-logo">
+                <img src="./imgs/Handwritten_logo_with_cloud_2K_202607271033.png" alt="">
+            </a>
+
+
+            <!-- PC NAV -->
+            <nav class="header-nav">
+
+                <a href="#stay" class="header-nav__link">
+                    STAY
+                </a>
+
+                <a href="#program" class="header-nav__link">
+                    PROGRAM
+                </a>
+
+                <a href="#film" class="header-nav__link">
+                    FILM
+                </a>
+
+                <a href="#shop" class="header-nav__link">
+                    SHOP
+                </a>
+
+                <a href="#about" class="header-nav__link">
+                    ABOUT
+                </a>
+
+            </nav>
+
+
+            <!-- RIGHT -->
+            <div class="header-actions">
+
+                <a href="#stay" class="header-book">
+                    BOOK NOW
+                </a>
+
+
+                <span class="header-divider"></span>
+
+
+                <!-- SHOP BAG -->
+                <a href="#shop" class="header-bag" aria-label="Shop">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M5 8h14l-1 12H6L5 8Z" />
+                        <path d="M9 8V6a3 3 0 0 1 6 0v2" />
+                    </svg>
+                </a>
+
+
+                <!-- MENU BUTTON -->
+                <button class="header-menu" type="button" aria-label="메뉴 열기" aria-expanded="false">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- 모바일에서만 사용하는 심플 메뉴 -->
+        <div class="mobile-menu">
+
+            <nav class="mobile-menu__nav">
+
+                <a href="#stay">STAY</a>
+                <a href="#program">PROGRAM</a>
+                <a href="#film">FILM</a>
+                <a href="#shop">SHOP</a>
+                <a href="#about">ABOUT</a>
+
+            </nav>
+
+        </div>
+
+    </header><!-- header_E -->
+    <div class="banner-container">
+        <video autoplay muted loop playsinline>
+            <source src="./imgs/캐릭터가_로고_붙잡아_매달려_1080p_202608061342.mp4" type="video/mp4">
+        </video>
+    </div>
+    <section class="brand-story" id="about">
+
+        <!-- background decoration -->
+        <span class="brand-story__bg-text brand-story__bg-text--left">
+            WÄRME WÄRME WÄRME WÄRME WÄRME WÄRME WÄRME
+        </span>
+
+        <div class="brand-story__inner">
+
+            <!-- ========================
+         HEADING
+    ========================= -->
+            <header class="brand-story__heading">
+
+                <!-- <span class="brand-story__eyebrow">
+                    ABOUT WÄRME
+                </span> -->
+
+                <h2>
+                    <img src="imgs/./Wärme_cursive_script_logo_2K_202608051706.png" alt="">
+                </h2>
+
+                <p class="brand-story__subtitle">
+                    몸과 마음을 녹이는 작은 온기
+                </p>
+
+            </header>
+
+
+            <!-- ========================
+         CHARACTER
+    ========================= -->
+            <div class="brand-character">
+
+                <!-- optional line decoration -->
+                <img src="./imgs/Rectangle 95.png" class="brand-deco brand-deco--sparkle" alt="">
+
+                <img src="./imgs/Rectangle 40.png" class="brand-deco brand-deco--leaf" alt="">
+
+
+                <div class="brand-character__image">
+                    <img src="./imgs/Plush_cloud_holding_heart_2K_202608051638.png" alt="Wärme character">
+                </div>
+
+            </div>
+
+
+            <!-- ========================
+         BRAND DESCRIPTION
+    ========================= -->
+            <div class="brand-description">
+
+                <p>
+                    하루의 무게를 잠시 내려놓고,
+                    온전히 나에게 집중하는 시간.
+                </p>
+
+                <p>
+                    Wärme는 일상 속 작은 쉼을 통해
+                    몸과 마음에 따뜻한 온기를 전합니다.
+                </p>
+
+            </div>
+
+
+            <!-- ========================
+         BRAND VALUES
+    ========================= -->
+            <div class="brand-values">
+
+                <!-- REST -->
+                <article class="brand-value">
+
+                    <span class="brand-value__number">
+                        01
+                    </span>
+
+                    <div class="brand-value__icon">
+                        <img src="./images/rest-leaf.svg" alt="">
+                    </div>
+
+                    <h3>
+                        REST
+                    </h3>
+
+                    <p>
+                        몸의 긴장을 내려놓고<br>
+                        편안히 쉬는 시간
+                    </p>
+
+                </article>
+
+
+                <!-- BREATHE -->
+                <article class="brand-value">
+
+                    <span class="brand-value__number">
+                        02
+                    </span>
+
+                    <div class="brand-value__icon">
+                        <img src="./images/breathe-cloud.svg" alt="">
+                    </div>
+
+                    <h3>
+                        BREATHE
+                    </h3>
+
+                    <p>
+                        복잡한 생각을 비우고<br>
+                        천천히 숨 쉬는 시간
+                    </p>
+
+                </article>
+
+
+                <!-- STAY -->
+                <article class="brand-value">
+
+                    <span class="brand-value__number">
+                        03
+                    </span>
+
+                    <div class="brand-value__icon">
+                        <img src="./images/stay-house.svg" alt="">
+                    </div>
+
+                    <h3>
+                        STAY
+                    </h3>
+
+                    <p>
+                        나에게 집중하며<br>
+                        온전히 머무는 시간
+                    </p>
+
+                </article>
+
+            </div>
+
+
+            <!-- ========================
+         NEXT SECTION
+    ========================= -->
+            <a href="#stay" class="brand-story__next">
+                <span>
+                    FIND YOUR STAY
+                </span>
+
+                <span class="brand-story__arrow">
+                    ↓
+                </span>
+            </a>
+
+        </div>
+
+    </section>
+    <!-- stay_S -->
+    <section class="stay-section" id="stay">
+        <div class="stay-inner">
+
+            <div class="stay-bg-character1" aria-hidden="true">
+                <img src="./imgs/Cloud_character_preparing_to_fly_right_202607201755.png" alt="">
+            </div>
+
+            <div class="stay-bg-character2" aria-hidden="true">
+                <img src="./imgs/Plush_toy_sitting_and_hugging_202608111610.png" alt="">
+            </div>
+
+            <!-- =========================
+         SLIDE 01
+    ========================== -->
+            <article class="stay-slide">
+
+                <!-- text -->
+                <div class="stay-info">
+
+                    <span class="stay-number">
+                        01
+                    </span>
+
+                    <h2>
+                        SOM-GYEOL
+                    </h2>
+
+                    <p>
+                        햇살 아래에서<br>
+                        잠시 숨을 고르는 시간
+                    </p>
+
+                    <a href="#" class="stay-button">
+                        Book Now
+                        <span>→</span>
+                    </a>
+
+                </div>
+
+
+                <!-- house -->
+                <div class="stay-house-wrap">
+
+                    <!-- doodles -->
+                    <img src="./imgs/Rectangle 95.png" class="stay-deco stay-deco--leaf" alt="">
+
+                    <img src="./imgs/Rectangle 40.png" class="stay-deco stay-deco--sparkle" alt="">
+
+
+                    <!-- house shape -->
+                    <div class="stay-house">
+
+                        <img src="./imgs/Guesthouse_bedroom_with_wood_shelf_202607151506.jpeg" alt="Som-gyeol room">
+
+                    </div>
+
+
+                    <!-- hand drawn path -->
+                    <svg class="stay-path" viewBox="0 0 320 100" aria-hidden="true">
+                        <path d="M5 50 C70 90, 110 15, 180 60 S270 85, 315 40" />
+                    </svg>
+
+
+                    <!-- slider pagination -->
+                    <div class="stay-pagination">
+
+                        <button class="stay-dot active" data-slide="0" aria-label="Som-gyeol"></button>
+
+                        <button class="stay-dot" data-slide="1" aria-label="On-soop"></button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =========================
+         SLIDE 02
+    ========================== -->
+            <article class="stay-slide stay-slide--reverse">
+
+                <div class="stay-info">
+
+                    <span class="stay-number">
+                        02
+                    </span>
+
+                    <h2>
+                        ON-SOOP
+                    </h2>
+
+                    <p>
+                        숲 속 바람이 나를<br>
+                        안아주는 시간
+                    </p>
+
+                    <a href="#" class="stay-button">
+                        Book Now
+                        <span>→</span>
+                    </a>
+
+                </div>
+
+
+                <div class="stay-house-wrap">
+
+                    <img src="./imgs/Rectangle 40.png" class="stay-deco stay-deco--flower" alt="">
+
+                    <img src="./imgs/Rectangle 95.png" class="stay-deco stay-deco--sparkle2" alt="">
+
+
+                    <div class="stay-house">
+
+                        <img src="./imgs/Bedroom_with_forest_view_2K_202607161649 (2).jpeg" alt="On-soop room">
+
+                    </div>
+
+
+                    <svg class="stay-path stay-path--right" viewBox="0 0 320 100" aria-hidden="true">
+                        <path d="M5 55 C85 20, 120 90, 190 55 S260 20, 315 50" />
+                    </svg>
+
+                </div>
+
+            </article>
+
+        </div>
+    </section>
+
+    <div class="text">
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <!-- <p>DONG-AH INSTITUTE of media AND ARTS. DONG-AH INSTITUTE of media AND ARTS.</p>
+        <p>DONG-AH INSTITUTE of media AND ARTS. DONG-AH INSTITUTE of media AND ARTS.</p> -->
+    </div>
+    <!--  -->
+    <section class="program-section" id="program">
+        <div class="program-heading">
+            <span class="program-eyebrow">WÄRME RITUAL</span>
+
+            <h2>Find Your Program</h2>
+
+            <p>
+                오늘의 나에게 필요한 쉼을 골라보세요.
+            </p>
+        </div>
+
+        <div class="program-slider">
+
+            <!-- 01 -->
+            <article class="program-card card-left">
+                <div class="program-number">01</div>
+
+                <h3>
+                    Slow<br />
+                    Morning
+                </h3>
+
+                <span class="program-subtitle">
+                    Tea &amp; Writing Ritual
+                </span>
+
+                <div class="program-image">
+                    <img src="./imgs/koomi.png" alt="Tea and writing ritual" />
+                </div>
+
+                <p class="program-description">
+                    차 한 잔과 글쓰기로<br />
+                    복잡한 생각을 내려놓는 아침
+                </p>
+
+                <a href="#" class="program-link">
+                    Explore
+                    <span>→</span>
+                </a>
+            </article>
+
+
+            <!-- 02 : MAIN -->
+            <article class="program-card card-main active">
+                <div class="program-number">02</div>
+
+                <h3>
+                    Into<br />
+                    Nature
+                </h3>
+
+                <span class="program-subtitle">
+                    Aroma &amp; Sound Bath
+                </span>
+
+                <div class="program-image">
+                    <img src="./imgs/yoga_pose_202607311007.png" alt="Aroma and sound bath" />
+                </div>
+
+                <p class="program-description">
+                    향과 자연의 소리에<br />
+                    몸과 마음을 천천히 맡기는 시간
+                </p>
+
+                <a href="#" class="program-link">
+                    Explore
+                    <span>→</span>
+                </a>
+            </article>
+
+
+            <!-- 03 -->
+            <article class="program-card card-right">
+                <div class="program-number">03</div>
+
+                <h3>
+                    Good Night,<br />
+                    Wärme
+                </h3>
+
+                <span class="program-subtitle">
+                    Deep Sleep Ritual
+                </span>
+
+                <div class="program-image">
+                    <img src="./imgs/Plush_cloud_character_yoga_pose_202607311007.png" alt="Deep sleep ritual" />
+                </div>
+
+                <p class="program-description">
+                    하루의 긴장을 내려놓고<br />
+                    깊은 잠으로 들어가는 시간
+                </p>
+
+                <a href="#" class="program-link">
+                    Explore
+                    <span>→</span>
+                </a>
+            </article>
+
+        </div>
+
+
+        <!-- 모바일용 인디케이터 -->
+        <div class="program-pagination">
+            <button class="pagination-dot active" data-index="0"></button>
+            <button class="pagination-dot" data-index="1"></button>
+            <button class="pagination-dot" data-index="2"></button>
+        </div>
+    </section>
+    <!-- program_E -->
+    <div class="text">
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <p>A gentle warmth to melt your body and mind</p>
+        <!-- <p>DONG-AH INSTITUTE of media AND ARTS. DONG-AH INSTITUTE of media AND ARTS.</p>
+        <p>DONG-AH INSTITUTE of media AND ARTS. DONG-AH INSTITUTE of media AND ARTS.</p> -->
+    </div>
+
+
+
+    <div class="envent_banner"></div>
+
+    <!-- shop_S -->
+    <section class="shop-section" id="shop">
+        <div class="shop-inner">
+
+            <div class="shop-heading">
+                <span class="shop-eyebrow">WÄRME OBJECTS</span>
+
+                <h2>Wärme’s Little Shop</h2>
+
+                <p>
+                    일상에 작은 온기를 데려가세요.
+                </p>
+            </div>
+
+
+            <div class="shop-grid">
+
+                <!-- 01 CAP -->
+                <article class="shop-card">
+                    <a href="#" class="shop-image-wrap">
+                        <span class="shop-number">01</span>
+
+                        <img src="./imgs/Two_baseball_caps_beige_background_202607281013.jpeg"
+                            alt="Signature Everyday Cap" class="shop-image" />
+                    </a>
+
+                    <div class="shop-info">
+                        <h3>Signature Everyday Cap</h3>
+                        <p class="shop-price">32,000원</p>
+                    </div>
+                </article>
+
+
+                <!-- 02 MAIN -->
+                <article class="shop-card shop-card--main">
+
+                    <!-- character -->
+                    <div class="shop-character">
+                        <img src="/imgs/Rectangle 33.png" alt="koomi" />
+
+                        <span class="character-text">
+                            Pick your favorite ♡
+                        </span>
+                    </div>
+
+
+                    <a href="#" class="shop-image-wrap">
+                        <span class="shop-number">02</span>
+
+                        <img src="./imgs/Yoga_wear_mockup_laid_flat_202607271324.jpeg" alt="Cozy Texture All-Day Set"
+                            class="shop-image" />
+                    </a>
+
+                    <div class="shop-info">
+                        <h3>Cozy Texture All-Day Set</h3>
+                        <p class="shop-price">49,800원</p>
+                    </div>
+                </article>
+
+
+                <!-- 03 TEE -->
+                <article class="shop-card">
+                    <a href="#" class="shop-image-wrap">
+                        <span class="shop-number">03</span>
+
+                        <img src="./imgs/Man_wearing_t-shirt_and_cap_202607281337.jpeg" alt="Signature Logo Relaxed Tee"
+                            class="shop-image" />
+                    </a>
+
+                    <div class="shop-info">
+                        <h3>Signature Logo Relaxed Tee</h3>
+                        <p class="shop-price">36,000원</p>
+                    </div>
+                </article>
+
+            </div>
+
+
+            <div class="shop-more">
+                <a href="#">
+                    <span>View All Objects</span>
+                    <span class="shop-more-arrow">→</span>
+                </a>
+            </div>
+
+        </div>
+    </section><!-- shop_E -->
+    <div class="envent_banner2"></div>
+
+
+    <!-- notice_S -->
+    <section class="news-section" id="notice">
+        <div class="news-inner">
+
+            <!-- =========================
+         NOTICE AREA
+    ========================== -->
+            <div class="news-notice">
+
+                <div class="news-heading">
+                    <span class="news-eyebrow">NOTICE</span>
+
+                    <h2>WÄRME NEWS</h2>
+
+                    <p>
+                        베르메의 새로운 소식과<br>
+                        다양한 이야기를 만나보세요.
+                    </p>
+                </div>
+
+
+                <div class="news-list">
+
+                    <a href="#" class="news-item">
+                        <span class="news-date">08.13</span>
+
+                        <span class="news-title">
+                            베르메의 새로운 여름 굿즈를 만나보세요.
+                        </span>
+
+                        <span class="news-arrow">→</span>
+                    </a>
+
+
+                    <a href="#" class="news-item">
+                        <span class="news-date">08.02</span>
+
+                        <span class="news-title">
+                            WÄRME SUMMER EVENT 안내
+                        </span>
+
+                        <span class="news-arrow">→</span>
+                    </a>
+
+
+                    <a href="#" class="news-item">
+                        <span class="news-date">07.24</span>
+
+                        <span class="news-title">
+                            베르메 스테이 예약 일정 안내
+                        </span>
+
+                        <span class="news-arrow">→</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =========================
+         POSTER AREA
+    ========================== -->
+            <div class="news-poster">
+
+                <div class="poster-header">
+                    <span>EVENT POSTER</span>
+
+                    <a href="#">
+                        VIEW ALL
+                        <span>→</span>
+                    </a>
+                </div>
+
+
+                <div class="poster-slider">
+
+                    <div class="poster-track">
+
+                        <a href="#" class="poster-card">
+                            <img src="./imgs/applemint.png" alt="Wärme poster 01">
+                        </a>
+
+                        <a href="#" class="poster-card">
+                            <img src="./imgs/4cut-photo.png" alt="Wärme poster 02">
+                        </a>
+
+                        <!-- 포스터 추가 가능 -->
+                        <a href="#" class="poster-card">
+                            <img src="./imgs/oneday_yoga.png" alt="Wärme poster 03">
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- pagination -->
+                <div class="poster-pagination">
+                    <button class="poster-dot active" data-index="0"></button>
+                    <button class="poster-dot" data-index="1"></button>
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- notice_E -->
+    <!-- instgram_S -->
+    <section class="journal-section" id="journal">
+
+        <!-- TITLE -->
+        <div class="journal-header">
+
+            <div class="journal-title">
+                <span class="journal-eyebrow">
+                    INSTAGRAM
+                </span>
+
+                <h2>WÄRME JOURNAL</h2>
+
+                <p>
+                    베르메의 작은 순간들을 기록합니다.
+                </p>
+            </div>
+
+            <a href="#" class="journal-instagram">
+                @warme
+                <span>→</span>
+            </a>
+
+        </div>
+
+
+        <!-- =========================
+       ROW 01 / LEFT
+  ========================== -->
+        <div class="journal-marquee">
+
+            <div class="journal-track journal-track--left">
+
+                <!-- ORIGINAL -->
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/sns1.png" alt="Wärme Instagram post">
+                </a>
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/koomi_sns1.png" alt="Wärme Instagram post">
+                </a>
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/sns2.png" alt="sns3">
+                </a>
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/koomi_sns2.png" alt="Wärme Instagram post">
+                </a>
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/sns3.png" alt="Wärme Instagram post">
+                </a>
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/koomi_sns3.png" alt="Wärme Instagram post">
+                </a>
+
+
+                <!-- DUPLICATE -->
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/sns4.png" alt="">
+                </a>
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/koomi_sns4.png" alt="">
+                </a>
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/sns5.png" alt="sns">
+                </a>
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/koomi_sns5.png" alt="">
+                </a>
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/sns6.png" alt="">
+                </a>
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/koomi_sns6.png" alt="">
+                </a>
+
+                <!-- ORIGINAL -->
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/sns1.png" alt="Wärme Instagram post">
+                </a>
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/koomi_sns1.png" alt="Wärme Instagram post">
+                </a>
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/sns2.png" alt="sns3">
+                </a>
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/koomi_sns2.png" alt="Wärme Instagram post">
+                </a>
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/sns3.png" alt="Wärme Instagram post">
+                </a>
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/koomi_sns3.png" alt="Wärme Instagram post">
+                </a>
+
+
+                <!-- DUPLICATE -->
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/sns4.png" alt="">
+                </a>
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/koomi_sns4.png" alt="">
+                </a>
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/sns5.png" alt="sns">
+                </a>
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/koomi_sns5.png" alt="">
+                </a>
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/sns6.png" alt="">
+                </a>
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/koomi_sns6.png" alt="">
+                </a>
+                <!-- ORIGINAL -->
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/sns1.png" alt="Wärme Instagram post">
+                </a>
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/koomi_sns1.png" alt="Wärme Instagram post">
+                </a>
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/sns2.png" alt="sns3">
+                </a>
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/koomi_sns2.png" alt="Wärme Instagram post">
+                </a>
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/sns3.png" alt="Wärme Instagram post">
+                </a>
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/koomi_sns3.png" alt="Wärme Instagram post">
+                </a>
+
+
+                <!-- DUPLICATE -->
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/sns4.png" alt="">
+                </a>
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/koomi_sns4.png" alt="">
+                </a>
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/sns5.png" alt="sns">
+                </a>
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/koomi_sns5.png" alt="">
+                </a>
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/sns6.png" alt="">
+                </a>
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/koomi_sns6.png" alt="">
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+       ROW 02 / RIGHT
+  ========================== -->
+        <div class="journal-marquee">
+
+            <div class="journal-track journal-track--right">
+
+                <!-- ORIGINAL -->
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/koomi_sns1.png" alt="Wärme Instagram post">
+                </a>
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/sns1.png" alt="Wärme Instagram post">
+                </a>
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/koomi_sns2.png" alt="Wärme Instagram post">
+                </a>
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/sns2.png" alt="Wärme Instagram post">
+                </a>
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/koomi_sns3.png" alt="Wärme Instagram post">
+                </a>
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/sns3.png" alt="Wärme Instagram post">
+                </a>
+
+
+                <!-- DUPLICATE -->
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/koomi_sns4.png" alt="">
+                </a>
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/sns4.png" alt="">
+                </a>
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/koomi_sns5.png" alt="">
+                </a>
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/sns5.png" alt="">
+                </a>
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/koomi_sns6.png" alt="">
+                </a>
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/sns6.png" alt="">
+                </a>
+                <!-- ORIGINAL -->
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/koomi_sns1.png" alt="Wärme Instagram post">
+                </a>
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/sns1.png" alt="Wärme Instagram post">
+                </a>
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/koomi_sns2.png" alt="Wärme Instagram post">
+                </a>
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/sns2.png" alt="Wärme Instagram post">
+                </a>
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/koomi_sns3.png" alt="Wärme Instagram post">
+                </a>
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/sns3.png" alt="Wärme Instagram post">
+                </a>
+
+
+                <!-- DUPLICATE -->
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/koomi_sns4.png" alt="">
+                </a>
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/sns4.png" alt="">
+                </a>
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/koomi_sns5.png" alt="">
+                </a>
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/sns5.png" alt="">
+                </a>
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/koomi_sns6.png" alt="">
+                </a>
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/sns6.png" alt="">
+                </a>
+                <!-- ORIGINAL -->
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/koomi_sns1.png" alt="Wärme Instagram post">
+                </a>
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/sns1.png" alt="Wärme Instagram post">
+                </a>
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/koomi_sns2.png" alt="Wärme Instagram post">
+                </a>
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/sns2.png" alt="Wärme Instagram post">
+                </a>
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/koomi_sns3.png" alt="Wärme Instagram post">
+                </a>
+
+                <a href="#" class="journal-card">
+                    <img src="./imgs/sns3.png" alt="Wärme Instagram post">
+                </a>
+
+
+                <!-- DUPLICATE -->
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/koomi_sns4.png" alt="">
+                </a>
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/sns4.png" alt="">
+                </a>
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/koomi_sns5.png" alt="">
+                </a>
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/sns5.png" alt="">
+                </a>
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/koomi_sns6.png" alt="">
+                </a>
+
+                <a href="#" class="journal-card" tabindex="-1" aria-hidden="true">
+                    <img src="./imgs/sns6.png" alt="">
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- BOTTOM -->
+        <div class="journal-bottom">
+
+            <span>
+                SMALL MOMENTS
+            </span>
+
+            <span class="journal-line"></span>
+
+            <span>
+                A WARMER TOMORROW
+            </span>
+
+        </div>
+
+    </section> <!-- instgram_E -->
+
+    <section class="sweet-section" id="sweet">
+
+        <div class="sweet-inner">
+
+
+            <!-- =========================
+         TOP / TITLE
+    ========================== -->
+
+            <div class="sweet-heading">
+
+                <span class="sweet-eyebrow">
+                    SWEET MOMENTS
+                </span>
+
+                <h2>
+                    A little sweetness,<br>
+                    a little warmth.
+                </h2>
+
+                <div class="sweet-heading-line">
+                    <span></span>
+
+                    <img src="./imgs/Rectangle 40.png" alt="">
+                </div>
+
+                <p>
+                    베르메가 달콤한 모습으로 찾아온 순간들.
+                </p>
+
+            </div>
+
+
+
+            <!-- =========================
+         DESSERT SLIDER
+    ========================== -->
+
+            <div class="sweet-slider">
+
+                <div class="sweet-viewport">
+
+                    <div class="sweet-track">
+
+
+                        <!-- 01 -->
+
+                        <article class="sweet-card">
+
+                            <a href="#" class="sweet-image">
+                                <img src="./imgs/Strawberry_whipped_cream_charact…_2K_202608141354.jpeg"
+                                    alt="Strawberry Cloud Cake">
+                            </a>
+
+                            <div class="sweet-card-top">
+
+                                <span class="sweet-number">
+                                    01
+                                </span>
+
+                                <span class="sweet-card-line"></span>
+
+                                <a href="#" class="sweet-arrow">
+                                    →
+                                </a>
+
+                            </div>
+
+                            <h3>
+                                Strawberry Cloud Cake
+                            </h3>
+
+                        </article>
+
+
+
+                        <!-- 02 -->
+
+                        <article class="sweet-card">
+
+                            <a href="#" class="sweet-image">
+                                <img src="./imgs/Gingerbread_cookie_on_plate_2K_202608141402.jpeg" alt="Cookie Wärme">
+                            </a>
+
+                            <div class="sweet-card-top">
+
+                                <span class="sweet-number">
+                                    02
+                                </span>
+
+                                <span class="sweet-card-line"></span>
+
+                                <a href="#" class="sweet-arrow">
+                                    →
+                                </a>
+
+                            </div>
+
+                            <h3>
+                                Cookie Wärme
+                            </h3>
+
+                        </article>
+
+
+
+                        <!-- 03 -->
+
+                        <article class="sweet-card">
+
+                            <a href="#" class="sweet-image">
+                                <img src="./imgs/Custard_pudding_in_glass_cup_202608141356.jpeg" alt="Milk Pudding">
+                            </a>
+
+                            <div class="sweet-card-top">
+
+                                <span class="sweet-number">
+                                    03
+                                </span>
+
+                                <span class="sweet-card-line"></span>
+
+                                <a href="#" class="sweet-arrow">
+                                    →
+                                </a>
+
+                            </div>
+
+                            <h3>
+                                Milk Pudding
+                            </h3>
+
+                        </article>
+
+
+
+                        <!-- 04 -->
+
+                        <article class="sweet-card">
+
+                            <a href="#" class="sweet-image">
+                                <img src="./imgs/Cupcake_with_frosting_smiley_face_202608141358.jpeg"
+                                    alt="Cherry Cupcake">
+                            </a>
+
+                            <div class="sweet-card-top">
+
+                                <span class="sweet-number">
+                                    04
+                                </span>
+
+                                <span class="sweet-card-line"></span>
+
+                                <a href="#" class="sweet-arrow">
+                                    →
+                                </a>
+
+                            </div>
+
+                            <h3>
+                                Cherry Cupcake
+                            </h3>
+
+                        </article>
+
+
+
+                        <!-- 추가 디저트 -->
+
+                        <!-- <article class="sweet-card">
+
+                            <a href="#" class="sweet-image">
+                                <img src="./images/sweet-05.jpg" alt="Wärme Toast">
+                            </a>
+
+                            <div class="sweet-card-top">
+
+                                <span class="sweet-number">
+                                    05
+                                </span>
+
+                                <span class="sweet-card-line"></span>
+
+                                <a href="#" class="sweet-arrow">
+                                    →
+                                </a>
+
+                            </div>
+
+                            <h3>
+                                Wärme Toast
+                            </h3>
+
+                            <p>
+                                따뜻한 토스트 위에서 만나는<br>
+                                작은 베르메.
+                            </p>
+
+                        </article> -->
+
+
+                    </div>
+
+                </div>
+
+
+                <!-- NEXT -->
+
+                <button class="sweet-next" type="button" aria-label="다음 디저트">
+                    →
+                </button>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- =========================
+       PROGRESS
+  ========================== -->
+
+        <div class="sweet-progress">
+
+            <span class="sweet-current">
+                01
+            </span>
+
+            <span class="sweet-progress-line">
+                <span></span>
+            </span>
+
+            <span class="sweet-total">
+                05
+            </span>
+
+        </div>
+
+
+
+        <!-- =========================
+       BOTTOM CTA
+  ========================== -->
+
+        <div class="sweet-cta">
+
+            <div class="sweet-cta-text">
+
+                <p>
+                    More sweets are coming soon.<br>
+                    Stay tuned ♡
+                </p>
+
+                <a href="#">
+                    VIEW ALL SWEETS
+                    <span>→</span>
+                </a>
+
+            </div>
+
+
+            <div class="sweet-cta-art">
+
+                <img src="./imgs/Rectangle 95.png" class="sweet-cta-cloud" alt="">
+
+                <img src="./imgs/koomi.png" class="sweet-cta-character" alt="">
+
+                <img src="./imgs/Rectangle 40.png" class="sweet-cta-leaf" alt="">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer class="site-footer">
+
+        <div class="site-footer__inner">
+
+            <!-- =========================
+         BRAND
+    ========================== -->
+            <div class="footer-brand">
+
+                <a href="#" class="footer-logo">
+                    <img src="./imgs/Handwritten_logo_with_cloud6_2K_202607271033.png" alt="">
+                </a>
+
+                <p class="footer-tagline">
+                    A gentle warmth<br>
+                    for your everyday life.
+                </p>
+
+                <p class="footer-copy">
+                    몸과 마음을 녹이는<br>
+                    작은 온기를 전합니다.
+                </p>
+
+                <img src="./images/footer-cloud.png" alt="" class="footer-cloud">
+
+            </div>
+
+
+            <!-- =========================
+         NAV
+    ========================== -->
+            <nav class="footer-nav">
+
+                <div class="footer-nav__group">
+                    <h3>STAY</h3>
+
+                    <a href="#">Som-gyeol</a>
+                    <a href="#">On-soop</a>
+                    <a href="#">A Day with Wärme</a>
+                    <a href="#">Reservation Guide</a>
+                </div>
+
+
+                <div class="footer-nav__group">
+                    <h3>PROGRAM</h3>
+
+                    <a href="#">Slow Morning</a>
+                    <a href="#">Into Nature</a>
+                    <a href="#">Mindful Time</a>
+                    <a href="#">Good Night</a>
+                </div>
+
+
+                <div class="footer-nav__group">
+                    <h3>SHOP</h3>
+
+                    <a href="#">Objects</a>
+                    <a href="#">Goods</a>
+                    <a href="#">Gift Package</a>
+                    <a href="#">Brand Story</a>
+                </div>
+
+
+                <div class="footer-nav__group">
+                    <h3>ABOUT</h3>
+
+                    <a href="#">Our Story</a>
+                    <a href="#">Wärme Journal</a>
+                    <a href="#">Notice</a>
+                    <a href="#">FAQ</a>
+                </div>
+
+            </nav>
+
+
+            <!-- =========================
+         NEWSLETTER
+    ========================== -->
+            <div class="footer-newsletter">
+
+                <span class="footer-newsletter__eyebrow">
+                    NEWSLETTER
+                </span>
+
+                <p>
+                    조금 느린 하루의 소식을 받아보세요.
+                </p>
+
+
+                <form class="footer-form">
+
+                    <input type="email" class="footer-email" placeholder="Your email" required>
+
+                    <button type="submit" class="footer-submit" aria-label="뉴스레터 구독">
+                        →
+                    </button>
+
+                </form>
+
+
+                <!-- SNS -->
+                <div class="footer-social">
+
+                    <a href="#">
+                        <span class="footer-social__icon">
+                            ◎
+                        </span>
+                        Instagram
+                    </a>
+
+                    <a href="#">
+                        <span class="footer-social__icon">
+                            ▷
+                        </span>
+                        Youtube
+                    </a>
+
+                    <a href="mailto:hello@warme.com">
+                        <span class="footer-social__icon">
+                            ✉
+                        </span>
+                        Contact
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================
+         CHARACTER
+    ========================== -->
+            <div class="footer-character-wrap">
+
+                <img src="./images/footer-character.png" alt="" class="footer-character">
+
+                <img src="./images/footer-leaf.png" alt="" class="footer-leaf">
+
+                <img src="./images/footer-cloud-small.png" alt="" class="footer-cloud-small footer-cloud-small--01">
+
+                <img src="./images/footer-cloud-small.png" alt="" class="footer-cloud-small footer-cloud-small--02">
+
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+       BOTTOM
+  ========================== -->
+        <div class="site-footer__bottom">
+
+            <span>
+                © 2026 WÄRME. ALL RIGHTS RESERVED.
+            </span>
+
+            <div class="footer-policy">
+                <a href="#">PRIVACY POLICY</a>
+                <span>|</span>
+                <a href="#">TERMS OF USE</a>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+
+    <script src="./js/jquery-4.0.0.min.js"></script>
+    <!-- 다운로드 형식으로 들고 온 제이쿼리 -->
+    <script src="./js/script.js"></script>
+    <!-- 내가 꾸민 제이쿼리 -->
+</body>
+
+</html>
